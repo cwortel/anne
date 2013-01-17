@@ -1,0 +1,140 @@
+div#position5 {
+	position: absolute;
+	top: 300px;
+	left: 250px;
+	width: 150px;
+	height: 150px;  
+	background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center; 
+  line-height: 100%;
+}
+div#position6 {
+	position: absolute;
+	top: 300px;
+	left: 400px;
+	width: 150px;
+	height: 150px;  
+	background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center; 
+  line-height: 100%;
+}
+div#position7 {
+	position: absolute;
+	top: 300px;
+	left: 550px;
+	width: 150px;
+	height: 150px;  
+	background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center; 
+  line-height: 100%;
+}
+div#position8 {
+	position: absolute;
+	top: 300px;
+	left: 700px;
+	width: 150px;
+	height: 150px;  
+	background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center; 
+  line-height: 100%;
+}
+
+div#position9 {
+	position: absolute;
+	top: 450px;
+	left: 250px;
+	width: 150px;
+	height: 150px;  
+	background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center; 
+  line-height: 100%;
+}
+
+div#position10 {
+  position: absolute;
+	top: 450px;
+	left: 400px;
+	width: 150px;
+	height: 150px;  
+	background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;	
+  line-height: 100%;
+}
+
+div#position11 {
+  position: absolute;
+	top: 450px;
+	left: 550px;
+	width: 150px;
+	height: 150px;  
+	background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;	
+  line-height: 100%;
+}
+
+div#position12 {
+  position: absolute;
+	top: 450px;
+	left: 700px;
+	width: 150px;
+	height: 150px;  
+	background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;	
+  line-height: 100%;
+}
+
+div#position13 {
+  position: absolute;
+	top: 600px;
+	left: 250px;
+	width: 150px;
+	height: 150px;  
+	background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;	
+  line-height: 100%;
+}
+
+div#position14 {
+  position: absolute;
+	top: 600px;
+	left: 400px;
+	width: 150px;
+	height: 150px;  
+	background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;	
+  line-height: 100%;
+}
+
+div#position15 {
+  position: absolute;
+	top: 600px;
+	left: 550px;
+	width: 150px;
+	height: 150px;  
+	background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;	
+  line-height: 100%;
+}
+
+div#position16 {
+  position: absolute;
+	top: 600px;
+	left: 700px;
+	width: 150px;
+	height: 150px;  
+	background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;	
+  line-height: 100%;
+}

@@ -1,0 +1,274 @@
+body {
+  background-color: #ffffcc;
+
+}
+div#banner {
+    position: absolute;
+		height: 100px; 
+		width: 470px;
+		top: 15px;
+		left: 104px;
+		background-image: url('../attemptatbanner3.gif');
+    background-repeat: no-repeat;
+}
+div#logoleft {
+		position: absolute;
+		top: 2px;
+		left: 2px;
+		background-image: url('../EJ_ScratchLogoTransparant90l2.gif');
+		height: 90px;
+		width: 90px;    
+		background-repeat: no-repeat;
+}
+div#menu {
+		position: absolute;
+		top: 90px;
+		left: -17px;
+		z-index: 1;
+}
+div#menu ul{
+		position: absolute;
+		left: -25px;
+		z-index: 1;
+}
+div#menu li {
+    height:103px;
+    width:  83px;
+    margin: 15px;
+    font-family: Century Gothic;
+    font-size: small;
+    text-align: center;
+    line-height: 400%;
+    list-style-type: none;
+    background-image: url('../buttonface-up.jpg');
+    background-repeat: no-repeat
+}
+div#menu li a {
+
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+div#menu li a:link {
+    color: #66cc66;
+}
+div#menu li a:visited {
+    color: #66cc66;
+}
+div#menu li a:hover {
+    font-weight: bold;
+    color: #66cc66;
+} 
+
+div#menu li a:active {
+    font-weight: bold;
+    color: #66cc66;
+    background-image: url('../buttonface-down.jpg'); 
+    background-repeat: no-repeat
+}
+
+div#listen {
+		position: absolute;
+    height: auto;
+    width:  10px;
+		top: 203px;
+		left: 103px;
+}
+div#listen li {
+    height:30px;
+    width: 250px;
+    font-family: Century Gothic;
+    font-size: small;
+    text-align: left;
+    line-height: 130%;
+    list-style-type: none;
+    background-repeat: no-repeat
+}
+div#listen li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+div#listen li a:link {
+    color: green;
+}
+div#listen li a:visited {
+    color: green;
+}
+div#listen li a:hover {
+    font-weight: bold;
+    color: green;
+} 
+div#listen li a:active {
+    color: green;
+    background-repeat: no-repeat
+}
+
+div#listen2 {
+		position: absolute;
+    height: auto;
+    width:  10px;
+		top: 613px;
+		left: 103px;
+}
+div#listen2 li {
+    height:30px;
+    width: 250px;
+    font-family: Century Gothic;
+    font-size: small;
+    text-align: left;
+    line-height: 130%;
+    list-style-type: none;
+    background-repeat: no-repeat
+}
+div#listen2 li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+div#listen2 li a:link {
+    color: green;
+}
+div#listen2 li a:visited {
+    color: green;
+}
+div#listen2 li a:hover {
+    font-weight: bold;
+    color: green;
+} 
+div#listen2 li a:active {
+    color: green;
+    background-repeat: no-repeat
+}
+
+div#listen3 {
+		position: absolute;
+    height: auto;
+    width:  10px;
+		top: 1023px;
+		left: 103px;
+}
+div#listen3 li {
+    height:30px;
+    width: 250px;
+    font-family: Century Gothic;
+    font-size: small;
+    text-align: left;
+    line-height: 130%;
+    list-style-type: none;
+    background-repeat: no-repeat
+}
+div#listen3 li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+div#listen3 li a:link {
+    color: green;
+}
+div#listen3 li a:visited {
+    color: green;
+}
+div#listen3 li a:hover {
+    font-weight: bold;
+    color: green;
+} 
+div#listen3 li a:active {
+    color: green;
+    background-repeat: no-repeat
+}
+
+div#window {
+		position: absolute;
+		top: 100px;
+		left: 120px;
+		height: 500px;
+		width: 454px;
+		text-align: right;
+}
+div#window h1{
+	font-family: Arial;
+	color: green;
+	text-align: right;
+	font-size: 150%;
+	font-weight: bold;
+	line-heigt: 60%;
+}
+div#window h2{
+	font-family: Arial;
+	color: #66cc66;
+	text-align: right;
+	font-size: 200%;
+	font-weight: bold;
+	line-height: 60%;
+}
+div#window h3{
+	font-family: Arial;
+	color: #E3E76A;
+	text-align: right;
+	font-size: 130%;
+	font-weight: bold;
+	line-height: 80%;
+}
+div#window h4 {
+	position: absolute;
+	font-family: Arial;
+	color: green;
+	text-align: center;
+	font-size: 70%;
+	font-weight: normal;
+	top: 225px;
+	left: 65px;
+}
+div#window h5{
+	font-family: Arial;
+	color: #66cc66;
+	font-size: 150%;
+	font-weight: bold;
+	line-height: 60%;
+}
+image.central {
+	  position: absolute;
+		height: 410px;
+		width: 410px;
+		left: 20px;
+		top: 95px;
+		z-index:-1;
+}
+image.listen {
+	  position: absolute;
+		height: 410px;
+		width: 410px;
+		left: 20px;
+		top: 65px;
+		z-index:-1;
+}
+image.listen2 {
+	  position: absolute;
+		height: 410px;
+		width: 410px;
+		left: 20px;
+		top: 470px;
+		z-index:-1;
+}
+image.listen3 {
+	  position: absolute;
+		height: 410px;
+		width: 410px;
+		left: 20px;
+		top: 880px;
+		z-index:-1;
+}
+
+image.at {
+	  position: absolute;
+		border: none;
+		left: 432px;
+		top: 432px;
+		width: 22px;
+		height: 22px;
+		z-index:1;
+}

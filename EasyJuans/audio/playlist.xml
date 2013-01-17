@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist version="0" xmlns="http://xspf.org/ns/0/">
+<title>The Easy Juans</title>
+	<trackList>
+		<track>
+			<location>http://www.xs4all.nl/~siets/EasyJuans/audio/129Haste.mp3</location>
+			<annotation>129 Haste - The Easy Juans</annotation>
+			<image>http://www.xs4all.nl/~siets/EasyJuans/ejcovers/EJ_TwoMoreMiles_Demo_Front.jpg</image>
+		</track>
+		<track>
+			<location>http://www.xs4all.nl/~siets/EasyJuans/audio/Break-a-Leg.mp3</location>
+			<annotation>Break-a-leg - The Easy Juans</annotation>
+			<image>http://www.xs4all.nl/~siets/EasyJuans/ejcovers/EJ_USB2DaPeople_Front.jpg</image>
+		</track>
+		<track>
+			<location>http://www.xs4all.nl/~siets/EasyJuans/audio/Caiparinha.mp3</location>
+			<annotation>Caiparinha - The Easy Juans</annotation>
+			<image>http://www.xs4all.nl/~siets/EasyJuans/ejcovers/EJ_Caipirinha_Front.jpg</image>
+		</track>
+		<track>
+			<location>http://www.xs4all.nl/~siets/EasyJuans/audio/ComeOverMe.mp3</location>
+			<annotation>Come Over Me - The Easy Juans ft. Shellisa</annotation>
+			<image>http://www.xs4all.nl/~siets/EasyJuans/ejcovers/EJ_USB2DaPeople_Front.jpg</image>
+		</track>
+		<track>
+			<location>http://www.xs4all.nl/~siets/EasyJuans/audio/Cupido.mp3</location>
+			<annotation>Cupido - The Easy Juans ft. Stanley and Gisela</annotation>
+			<image>http://www.xs4all.nl/~siets/EasyJuans/ejcovers/EJ_CupidoFront.jpg</image>
+		</track>
+		<track>
+			<location>http://www.xs4all.nl/~siets/EasyJuans/audio/DaGreenGold.mp3</location>
+			<annotation>Da Green Gold - The Easy Juans</annotation>
+			<image>http://www.xs4all.nl/~siets/EasyJuans/ejcovers/EJ_SoundBait_Front.jpg</image>
+		</track>
+		<track>
+			<location>http://www.xs4all.nl/~siets/EasyJuans/audio/DubSake.mp3</location>
+			<annotation>Dub Sake - The Easy Juans</annotation>
+			<image>http://www.xs4all.nl/~siets/EasyJuans/ejcovers/DubSake.jpg</image>
+		</track>
+		<track>
+			<location>http://www.xs4all.nl/~siets/EasyJuans/audio/ElTiempoPerdido.mp3</location>
+			<annotation>El Tiempo Perdido - The Easy Juans</annotation>
+			<image>http://www.xs4all.nl/~siets/EasyJuans/ejcovers/EJ_SfdO_Boekje_Front.jpg</image>
+		</track>
+		<track>
+			<location>http://www.xs4all.nl/~siets/EasyJuans/audio/Humming.mp3</location>
+			<annotation>Humming - The Easy Juans</annotation>
+			<image>http://www.xs4all.nl/~siets/EasyJuans/ejcovers/EJ_LiveAtTheDNoteVolumeI.jpg</image>
+		</track>
+		<track>
+			<location>http://www.xs4all.nl/~siets/EasyJuans/audio/ItsGottaGive.mp3</location>
+			<annotation>Its Gotta Give - The Easy Juans</annotation>
+			<image>http://www.xs4all.nl/~siets/EasyJuans/ejcovers/EJ_USB2DaPeople_Front.jpg</image>
+		</track>
+		<track>
+			<location>http://www.xs4all.nl/~siets/EasyJuans/audio/MakaiOverdue.mp3</location>
+			<annotation>Makai Overdue - The Easy Juans</annotation>
+			<image>http://www.xs4all.nl/~siets/EasyJuans/ejcovers/EJ_SfdO_Boekje_Front.jpg</image>
+		</track>
+		<track>
+			<location>http://www.xs4all.nl/~siets/EasyJuans/audio/MentalBlockBuster.mp3</location>
+			<annotation>Mental Blockbuster - The Easy Juans ft. Lemongirl</annotation>
+			<image>http://www.xs4all.nl/~siets/EasyJuans/ejcovers/MentalBlockBuster.jpg</image>
+		</track>
+		<track>
+			<location>http://www.xs4all.nl/~siets/EasyJuans/audio/MonsterDub.mp3</location>
+			<annotation>Monster Dub - The Easy Juans</annotation>
+			<image>http://www.xs4all.nl/~siets/EasyJuans/ejcovers/EJ_GanjaExperiance_Front.jpg</image>
+		</track>
+		<track>
+			<location>http://www.xs4all.nl/~siets/EasyJuans/audio/NotQuiteWhatItSeems.mp3</location>
+			<annotation>Not Quite What It Seems - The Easy Juans</annotation>
+			<image>http://www.xs4all.nl/~siets/EasyJuans/ejcovers/EJ_SfdO_Boekje_Front.jpg</image>
+		</track>
+		<track>
+			<location>http://www.xs4all.nl/~siets/EasyJuans/audio/Shell.mp3</location>
+			<annotation>Shell - The Easy Juans ft. Shellisa</annotation>
+			<image>http://www.xs4all.nl/~siets/EasyJuans/ejcovers/EJ_SfdO_Boekje_Front.jpg</image>
+		</track>
+		<track>
+			<location>http://www.xs4all.nl/~siets/EasyJuans/audio/Smoke.mp3</location>
+			<annotation>Smoke - The Easy Juans</annotation>
+			<image>http://www.xs4all.nl/~siets/EasyJuans/ejcovers/EJ_GanjaExperiance_Front.jpg</image>
+		</track>
+		<track>
+			<location>http://www.xs4all.nl/~siets/EasyJuans/audio/TheSoundOffAir.mp3</location>
+			<annotation>The Sound Of Air - The Easy Juans</annotation>
+			<image>http://www.xs4all.nl/~siets/EasyJuans/ejcovers/EJ_USB2DaPeople_Front.jpg</image>
+		</track>
+	</trackList>
+</playlist>

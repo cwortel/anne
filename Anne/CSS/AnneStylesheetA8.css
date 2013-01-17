@@ -1,0 +1,332 @@
+div#stock1 {
+	position: absolute;
+	top: 150px;
+	left: 250px;
+ 	width: 150px;
+	height: 150px;	
+  list-style-type: none;
+  text-decoration: none;
+  line-height: 100%;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+div#stock1 a {
+  display: block;
+  width: 150px;
+  height: 150px;
+  text-decoration: none;  
+	background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;  
+}
+div#stock1 a:link {
+  text-decoration: none;
+ 	width: 150px;
+	height: 150px;
+  background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div#stock1 a:hover {
+  display: block;
+  background-image: url('../images/x-85.jpg/94.jpg');
+	width: 150px;
+	height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div#stock1 a:visited {
+	text-decoration: none;
+	width: 150px;
+	height: 150px;
+}
+div#stock1 a:active {
+	text-decoration: none;    
+	width: 150px;
+	height: 150px;
+}
+
+div#stock2 {
+	position: absolute;
+	top: 150px;
+	left: 400px;
+ 	width: 150px;
+	height: 150px;	
+  list-style-type: none;
+  text-decoration: none;
+  line-height: 100%;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+div#stock2 a {
+  display: block;
+  width: 150px;
+  height: 150px;
+  text-decoration: none;  
+	background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;  
+}
+div#stock2 a:link {
+  text-decoration: none;
+ 	width: 150px;
+	height: 150px;
+  background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div#stock2 a:hover {
+  display: block;
+  background-image: url('../images/x-85.jpg/95.jpg');
+	width: 150px;
+	height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div#stock2 a:visited {
+	text-decoration: none;
+	width: 150px;
+	height: 150px;
+}
+div#stock2 a:active {
+	text-decoration: none;    
+	width: 150px;
+	height: 150px;
+}
+div#stock3 {
+	position: absolute;
+	top: 150px;
+	left: 550px;
+ 	width: 150px;
+	height: 150px;	
+  list-style-type: none;
+  text-decoration: none;
+  line-height: 100%;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+div#stock3 a {
+  display: block;
+  width: 150px;
+  height: 150px;
+  text-decoration: none;  
+	background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;  
+}
+div#stock3 a:link {
+  text-decoration: none;
+ 	width: 150px;
+	height: 150px;
+  background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div#stock3 a:hover {
+  display: block;
+  background-image: url('../images/x-85.jpg/96.jpg');
+	width: 150px;
+	height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div#stock3 a:visited {
+	text-decoration: none;
+	width: 150px;
+	height: 150px;
+}
+div#stock3 a:active {
+	text-decoration: none;    
+	width: 150px;
+	height: 150px;
+}
+div#stock4 {
+	position: absolute;
+	top: 150px;
+	left: 700px;
+ 	width: 150px;
+	height: 150px;	
+  list-style-type: none;
+  text-decoration: none;
+  line-height: 100%;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+div#stock4 a {
+  display: block;
+  width: 150px;
+  height: 150px;
+  text-decoration: none;  
+	background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;  
+}
+div#stock4 a:link {
+  text-decoration: none;
+ 	width: 150px;
+	height: 150px;
+  background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div#stock4 a:hover {
+  display: block;
+  background-image: url('../images/x-85.jpg/97.jpg');
+	width: 150px;
+	height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div#stock4 a:visited {
+    
+	text-decoration: none;
+	width: 150px;
+	height: 150px;
+}
+div#stock4 a:active {
+	text-decoration: none;    
+	width: 150px;
+	height: 150px;
+}
+div#stock5 {
+	position: absolute;
+	top: 300px;
+	left: 250px;
+ 	width: 150px;
+	height: 150px;	
+  list-style-type: none;
+  text-decoration: none;
+  line-height: 100%;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+div#stock5 a {
+  display: block;
+  width: 150px;
+  height: 150px;
+  text-decoration: none;  
+	background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;  
+}
+div#stock5 a:link {
+  text-decoration: none;
+ 	width: 150px;
+	height: 150px;
+  background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div#stock5 a:hover {
+  display: block;
+  background-image: url('../images/x-85.jpg/98.jpg');
+	width: 150px;
+	height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div#stock5 a:visited {
+	text-decoration: none;
+	width: 150px;
+	height: 150px;
+}
+div#stock5 a:active {
+	text-decoration: none;    
+	width: 150px;
+	height: 150px;
+}
+div#stock6 {
+	position: absolute;
+	top: 300px;
+	left: 400px;
+ 	width: 150px;
+	height: 150px;	
+  list-style-type: none;
+  text-decoration: none;
+  line-height: 100%;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+div#stock6 a {
+  display: block;
+  width: 150px;
+  height: 150px;
+  text-decoration: none;  
+	background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;  
+}
+div#stock6 a:link {
+  text-decoration: none;
+ 	width: 150px;
+	height: 150px;
+  background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div#stock6 a:hover {
+  display: block;
+  background-image: url('../images/x-85.jpg/99.jpg');
+	width: 150px;
+	height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div#stock6 a:visited {
+	text-decoration: none;
+	width: 150px;
+	height: 150px;
+}
+div#stock6 a:active {
+	text-decoration: none;    
+	width: 150px;
+	height: 150px;
+}
+
+div#stock7 {
+	position: absolute;
+	top: 300px;
+	left: 550px;
+ 	width: 150px;
+	height: 150px;	
+  list-style-type: none;
+  text-decoration: none;
+  line-height: 100%;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+div#stock7 a {
+  display: block;
+  width: 150px;
+  height: 150px;
+  text-decoration: none;  
+	background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;  
+}
+div#stock7 a:link {
+  text-decoration: none;
+ 	width: 150px;
+	height: 150px;
+  background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div#stock7 a:hover {
+  display: block;
+  background-image: url('../images/x-85.jpg/100.jpg');
+	width: 150px;
+	height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div#stock7 a:visited {
+	text-decoration: none;
+	width: 150px;
+	height: 150px;
+}
+div#stock7 a:active {
+	text-decoration: none;    
+	width: 150px;
+	height: 150px;
+}
