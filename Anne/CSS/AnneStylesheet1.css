@@ -6,16 +6,17 @@ div#logo {
 	position: absolute;
 	top: 30px;
 	left: 30px;
-	width: 103px;
+	width: 130px;
 	height: 86px;
-  background-image: url('../ButtonFace1.jpg');
-  background-repeat: no-repeat;
+	background-image: url('../ButtonFace1.jpg');
+	background-repeat: no-repeat;
 }
 div#header {
-  position: absolute;
+	position: absolute;
 	top: 30px;
 	width: 800px;
 	height: 100px;
+	text-align: right;
 }
 div#header h1{
 	font-family: Arial;
@@ -42,58 +43,65 @@ div#header p.1 {
 	top: 53px;
 	left: 300px;
 }
+.menu_container{
+	position: absolute;
+	float: left;
+	margin-top: 140px;
+#	left: 30px;
+}
+.menu {
+	text-indent: 0.5cm;
+	position: absolute;
+	line-height:80px;
+	font-family: Arial;
+	font-size: small;
+}
+.menu ul { 
+	padding: 0px; 
+	margin: 0px;
+	list-style-type: none;  
+}
+.menu li {
+	text-indent: 0.5cm;		
+	height: 80px;
+	width: 130px;
+}
+.menu a {
+		text-indent: 0.5cm;		
 
-div#menu {
-	  position: absolute;
-	  top: 140px;
-	  left: 30px;
-		height: 80px;
-    width: 150px;			
-    font-family: Arial;
-    font-size: small;
-    line-height: 400%;
-    list-style-type: none;
-    background-repeat: no-repeat;
+	text-decoration: none;
 }
-div#menu a {
-		text-indent: 0.3cm;
-		height: 80px;
-    width: 150px;	
-    text-decoration: none;
+.menu a:link {
+	color: gray;
 }
-div#menu a:link {
-		height: 80px;
-    width: 150px;	
-    color: gray;
+.menu a:visited {
+	color: gray;
 }
-div#menu a:visited {
-		height: 80px;
-    width: 150px;	
-    color: gray;
-}
-div#menu a:hover {
-		height: 80px;
-    width: 150px;	
-    font-weight: bold;
-    color: gray;
-    background-image: url('../ButtonFace3.jpg');
-    background-repeat: no-repeat;
+.menu a:hover {
+	text-indent: 0;		
+	position: absolute;	
+	font-weight: bold;
+	width: 130px;	
+	margin: 0;
+	color: gray;
+	background-image: url('../ButtonFace3.jpg');
+#	 background-position: -0.5cm;
+	background-repeat: no-repeat;
+
 } 
-div#menu a:active {
-		height: 80px;
-    width: 150px;	
-    font-weight: bold;
-    color: gray;
-	  background-image: url('../ButtonFace3.jpg');
-	  background-repeat: no-repeat;
-}
+#div#menu a:active {	
+#	font-weight: bold;
+#	color: gray;
+#	background-image: url('../ButtonFace3.jpg');
+#	background-repeat: no-repeat;
+#}
 
 div#image {
 	position: absolute;
 	top: 150px;
 	left: 150px;
 	z-index:-1;
-  border-width: 0px;
+	border-width: 0px;
 }
 div#image a: link {
     border-width: 0px;
@@ -260,35 +268,35 @@ div#text3 {
 	top: 150px;
 	left: 200px;
 	width: 605px;
-  text-align: right;
+	text-align: right;
 	font-family: Arial;
-	color: #C0C0C0;
+	color: #grey;
 	font-size: small;
-  text-decoration: none;
+	text-decoration: none;
 }
 div#text3 p.1 {
-  position: absolute;
+	position: absolute;
 	top:  630px;
-  left: 0px;
+	left: 0px;
 	width: 605px;
 	font-size: small;
 }
 div#text3 p.2 {
-  position: absolute;
-  top:  1240px;
-  left: 0px;
+	position: absolute;
+	top:  1240px;
+	left: 0px;
 	width: 605px;	
 }
 div#text3 p.3 {
-  position: absolute;
-  top:  2000px;
+	position: absolute;
+	top:  2000px;
 	left: 0px;
 	font-size: small;	
 	width: 605px;
 }
 div#text3 p.4 {
-  position: absolute;
-  top:  2450px;
+	position: absolute;
+	top:  2450px;
 	left: 0px;
 	font-size: small;
 	width: 605px;		
@@ -303,7 +311,7 @@ div#columnl {
 	text-wrap: none;
 	font-family: Arial;
 	color: gray;
-  line-height: 100%;
+	line-height: 100%;
 }
 
 div#columnr {
@@ -314,7 +322,7 @@ div#columnr {
 	text-align: right;
 	font-family: Arial;
 	color: gray;
-  line-height: 100%;
+	line-height: 100%;
 }
 div#columnr h1{
 	text-align: right;
@@ -332,7 +340,7 @@ div#columnl2 {
 	text-align: left;
 	font-family: Arial;
 	color: gray;
-  line-height: 100%;
+	line-height: 100%;
 }
 
 div#columnr2 {
@@ -343,22 +351,25 @@ div#columnr2 {
 	text-align: right;
 	font-family: Arial;
 	color: gray;
-  line-height: 100%;
+	line-height: 100%;
 }
 div#columnr2 a:link {
-  font-weight: bold;
+	font-weight: bold;
 	font-family: Arial;
 	color: gray;
 	font-size: small;		
-  color: gray;
-  text-decoration: none;
+	color: gray;
+	text-decoration: none;
 }
 div#columnr2 a:visited {
-  color: gray;
-  text-decoration: none;		
+	color: gray;
+	text-decoration: none;		
 }
 
 div#link {
+	position: absolute;
+  width: 590px;
+
     font-family: Arial;
     font-size: small;
     line-height: 100%;
@@ -368,10 +379,15 @@ div#link {
 			color: gray;
 }
 div#link a {
+	position: absolute;
     text-decoration: none;
     list-style-type: none;
+      width: 590px;
+
 }
 div#link a:link {
+		position: absolute;
+
 	color: gray;
   background-image: url('../link.jpg');
   background-repeat: no-repeat;
@@ -380,6 +396,8 @@ div#link a:link {
   list-style-type: none;
 }
 div#link a:visited {
+		position: absolute;
+
 	color: gray;
 	background-image: url('../link.jpg');
   background-repeat: no-repeat;
@@ -387,6 +405,8 @@ div#link a:visited {
   text-decoration: none;
 }
 div#link a:hover {
+		position: absolute;
+
 	font-weight: bold;
 	color: gray;
   background-image: url('../link2.jpg');
@@ -395,6 +415,8 @@ div#link a:hover {
 	text-decoration: none;
 }
 div#link a:active {
+		position: absolute;
+
 	color: gray;
   background-image: url('../link.jpg');
   background-repeat: no-repeat;
