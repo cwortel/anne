@@ -1,0 +1,1276 @@
+body {
+	margin:0;
+	padding:0;
+	border:0;			/* This removes the border around the viewport in old versions of IE */
+	width:800px;
+	background-color:white;
+	min-width:800px;    		/* Minimum width of layout - remove line if not required */
+					/* The min-width property does not work in old versions of Internet Explorer */
+	font-size:90%;
+}
+
+#header {
+	clear:both;
+	float:left;
+	width:100%;
+}
+#header {margin:0 0 0 0%;
+	position: relative;
+	text-align: right;
+	overflow: hidden;
+	background: white url('../ButtonFace1.jpg') no-repeat;
+	z-index: 999;
+}
+div#header h1{
+	font-family: Arial;
+	color: #C0C0C0;
+	text-align: right;
+	font-size: 350%;
+	line-height: 40%;
+	font-weight: normal;
+}
+div#header h2 {
+	font-family: Arial;
+	color: gray;
+	text-align: right;
+	font-size: 110%;
+	line-height: 50%;
+	font-weight: normal;
+}
+/* column container */
+.colmask {
+	position:relative;	/* This fixes the IE7 overflow hidden bug */
+	clear:both;
+	float:left;
+	width:100%;			/* width of whole page */
+	overflow:hidden;		/* This chops off any overhanging divs */
+}
+/* common column settings */
+.colright,
+.colmid,
+.colleft {
+	float:left;
+	width:100%;
+	position:relative;
+}
+.col1,
+.col2,
+.col3 {
+	float:left;
+	position:relative;
+	padding:0 0 0 0;
+	overflow:hidden;
+}
+/* 2 Column (left menu) settings */
+.leftmenu {
+	background:white;		/* right column background colour */
+}
+.leftmenu .colleft {
+	right:80%;			/* right column width */
+	background:white;	/* left column background colour */
+}
+.leftmenu .col1 {
+	width:80%;			/* right column content width */
+	left:100%;			/* 100% plus left column left padding */
+}
+.leftmenu .col2 {
+	width:20%;			/* left column content width (column width minus left and right padding) */
+	left:0%;			/* (right column left and right padding) plus (left column left padding) */
+}
+
+.rightimage {
+	position: relative;
+#	vertical-align:text-bottom;
+#	width: 500px;
+#	border: 0;
+#	float: right;
+	font-family: Arial;
+	color: #C0C0C0;
+	font-size: small;
+#	text-align: left;	 
+}
+.rightimage img {
+	position:relative;
+	width:300px;
+#	margin-left:345px;
+}
+
+
+.menu {
+	position: relative;
+	line-height:77px;
+	font-family: Arial;
+	font-size: small;
+	background:white;		/* right column background colour */
+	
+}
+.menu .colleft {
+	right:80%;			/* right column width */
+	background:white;	/* left column background colour */
+}
+.menu .col1 {
+	width:80%;			/* right column content width */
+	left:100%;			/* 100% plus left column left padding */
+}
+.menu .col2 {
+	width:20%;			/* left column content width (column width minus left and right padding) */
+	left:0%;			/* (right column left and right padding) plus (left column left padding) */
+}
+
+.menu ul { 
+	padding: 0px; 
+	margin: 0px;
+	list-style-type: none;  
+}
+.menu li {
+	height: 77px;
+	width: 140px;
+}
+.menu a {
+	text-decoration: none;
+	display:block;
+
+}
+.menu a:link {
+	color: gray;
+}
+.menu a:visited {
+	color: gray;
+}
+.menu a:hover {
+	text-indent: 0;		
+	position: absolute;	
+	font-weight: bold;
+	width: inherit;	
+	margin: 0;
+	color: gray;
+	background-image: url('../ButtonFace3.jpg');
+	background-repeat: no-repeat;
+#	background-position: -0.5cm;
+} 
+.menu a:active {	
+	text-indent: 0;		
+	position: absolute;	
+	font-weight: bold;
+	width: inherit;	
+	margin: 0;
+	color: gray;
+	background-image: url('../ButtonFace3.jpg');
+	background-repeat: no-repeat;
+} 
+
+div#image {
+	position: absolute;
+	top: 150px;
+	left: 150px;
+	z-index:-1;
+	border-width: 0px;
+}
+div#image a: link {
+    border-width: 0px;
+}		
+div#image a: active{
+    border-width: 0px;
+}		
+div#image a: visited{
+    border-width: 0px;
+}		
+div#image a: hover{
+    border-width: 0px;
+}		
+
+image.left {
+		position: absolute;
+		left: -590px;
+		vertical-align: bottom;
+}
+
+image.left1st {
+		position: absolute;
+		left: -590px;
+		top: 45px;
+}
+image.middle {
+		position: absolute;
+		left: -380px;
+}
+image.right {
+		position: absolute;
+		right: 1px;
+}
+
+div#label {
+  position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	border-style: solid;
+  border-color: gray;
+	border-width: 1px; 
+  font-family: Arial;
+  font-size: small;
+	color: gray;
+  background-image: url('../linklogoL.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+div#labeltext {
+  position: absolute;
+	top: 20px;
+	left: 250px;
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	border-style: solid;
+  border-color: gray;
+	border-width: 0px; 
+  font-family: Arial;
+  font-size: small;
+	color: gray;
+}
+div#labeltext2 {
+  position: absolute;
+	top: 0px;
+	left: 150px;
+	width: 400px;
+	height: 100px;
+	text-align: center;
+	border-style: solid;
+  border-color: gray;
+	border-width: 0px; 
+  font-family: Arial;
+  font-size: small;
+	color: gray;
+}
+.titletext {
+	position: relative;
+	text-align: right;
+	font-family: Arial;
+	color: grey;
+	font-size: medium;
+	font-weight: bold;
+}
+.lefttext {
+	position: relative;
+#	width: 175px;
+#	height: inherit;
+#	text-align: left;
+	font-family: Arial;
+	color: #C0C0C0;
+	font-size: small;
+}
+
+.righttext {
+	position: relative;
+	text-align: right;
+	font-family: Arial;
+	color: #C0C0C0;
+	font-size: small;
+}
+div#texto {
+	position: absolute;
+	top: 167px;
+	left: 200px;
+	width: 605px;
+	text-align: right;
+	font-family: Arial;
+	color: #C0C0C0;
+	font-size: small;
+}
+div#texto p.0 {
+  position: absolute;
+  right: 0px;
+}
+div#texto a.1 {
+  position: absolute;
+	top: -45px;
+	right: 0px;
+}
+div#texto a.2 {
+  position: absolute;
+  top: 275px;
+  right: 0px;
+}
+div#texto a.3 {
+  position: absolute;
+	top: 610px;
+	right: 0px;
+}
+div#texto a.4 {
+  position: absolute;
+	top: 915px;
+  right: 0px;
+}
+div#texto a.5 {
+  position: absolute;
+	top: 1220px;
+	right: 0px;
+}
+div#texto a.6 {
+  position: absolute;
+	top: 1550px;
+  right: 0px;
+}
+div#texto a.7 {
+  position: absolute;
+	top: 1960px;
+	right: 0px;
+}
+div#texto a.8 {
+  position: absolute;
+	top: 2300px;
+  right: 0px;
+}
+div#texto a.9 {
+  position: absolute;
+	top: 2680px;
+  right: 0px;
+}
+
+div#text2 {
+	position: absolute;
+	top: 550px;
+	left: 200px;
+	width: 605px;
+	text-align: left;
+	font-family: Arial;
+	color: gray;
+	font-size: small;
+}
+
+.text3 {
+	position: absolute;
+#	top: 150px;
+#	left: 200px;
+#	width: 630px;
+	text-align: right;
+	font-family: Arial;
+	color: #grey;
+	font-size: small;
+	text-decoration: none;
+}
+div#text3 p.1 {
+	position: absolute;
+	top:  630px;
+	left: 0px;
+	width: 605px;
+	font-size: small;
+}
+div#text3 p.2 {
+	position: absolute;
+	top:  1240px;
+	left: 0px;
+	width: 605px;	
+}
+div#text3 p.3 {
+	position: absolute;
+	top:  2000px;
+	left: 0px;
+	font-size: small;	
+	width: 605px;
+}
+div#text3 p.4 {
+	position: absolute;
+	top:  2450px;
+	left: 0px;
+	font-size: small;
+	width: 605px;		
+}
+
+div#columnl {
+	position: absolute;
+	top: 150px;
+	left: 200px;
+	width: 60px;
+	text-align: left;
+	text-wrap: none;
+	font-family: Arial;
+	color: gray;
+	line-height: 100%;
+}
+
+div#columnr {
+	position: absolute;
+	top: 150px;
+	left: 250px;
+	width: 555px;
+	text-align: right;
+	font-family: Arial;
+	color: gray;
+	line-height: 100%;
+}
+div#columnr h1{
+	text-align: right;
+	text-wrap: none;
+	font-family: Arial;
+	color: #C0C0C0;
+  line-height: 80%;
+	font-size: small;	
+}
+div#columnl2 {
+	position: absolute;
+	top: 150px;
+	left: 300px;
+	width: 100px;
+	text-align: left;
+	font-family: Arial;
+	color: gray;
+	line-height: 100%;
+}
+
+div#columnr2 {
+	position: absolute;
+	top: 150px;
+	left: 400px;
+	width: 405px;
+	text-align: right;
+	font-family: Arial;
+	color: gray;
+	line-height: 100%;
+}
+div#columnr2 a:link {
+	font-weight: bold;
+	font-family: Arial;
+	color: gray;
+	font-size: small;		
+	color: gray;
+	text-decoration: none;
+}
+div#columnr2 a:visited {
+	color: gray;
+	text-decoration: none;		
+}
+
+div#link {
+	position: absolute;
+  width: 590px;
+
+    font-family: Arial;
+    font-size: small;
+    line-height: 100%;
+    list-style-type: none;
+    text-align: right;
+    text-decoration: none;
+			color: gray;
+}
+div#link a {
+	position: absolute;
+    text-decoration: none;
+    list-style-type: none;
+      width: 590px;
+
+}
+div#link a:link {
+		position: absolute;
+
+	color: gray;
+  background-image: url('../link.jpg');
+  background-repeat: no-repeat;
+  width: 590px;
+  text-decoration: none;
+  list-style-type: none;
+}
+div#link a:visited {
+		position: absolute;
+
+	color: gray;
+	background-image: url('../link.jpg');
+  background-repeat: no-repeat;
+  width: 590px;
+  text-decoration: none;
+}
+div#link a:hover {
+		position: absolute;
+
+	font-weight: bold;
+	color: gray;
+  background-image: url('../link2.jpg');
+  background-repeat: no-repeat;
+  width: 590px;
+	text-decoration: none;
+}
+div#link a:active {
+		position: absolute;
+
+	color: gray;
+  background-image: url('../link.jpg');
+  background-repeat: no-repeat;
+  width: 590px;
+	text-decoration: none;
+}
+
+
+div#help {
+	 position: fixed; 
+	 top: 600px; 
+	 left: 25px; 
+	 width: 30px; 
+	 height: 50px; 
+	 font: 16px arial, sans-serif; 
+	 z-index: 100;
+}
+div#help a {
+	display: block;
+	text-align: left; 
+	font: bold;
+	font-family: arial;
+	padding: 5px 10px; 
+	margin: 0 0 1px; 
+	border-width: 0; 
+	text-decoration: none;
+	color: white; 
+	background: gray;
+}
+div#help a:hover {
+	color: #411; 
+	background: yellow;
+}
+div#help a span {
+	display: none;
+}
+div#help a:hover span {
+	display: block;
+	position: absolute; 
+	bottom: 0px; 
+	left: 0; 
+	width: 160px;
+	padding: 5px; 
+	margin: 0px; 
+	z-index: 100;
+	color: gray; 
+	background: yellow;
+	font: 10px arial, sans-serif; 
+	text-align: left;
+}
+
+div#position2 {
+  position: absolute;
+  top: 150px;
+  left: 400px;
+  width: 150px;
+  height: 150px;
+  list-style-type: none;
+  text-decoration: none;
+  line-height: 100%;
+  background-repeat: no-repeat;
+  font-family: Arial;
+  font-size: small;
+}
+div#position2 a {
+  display: block;
+  width: 150px;
+  height: 150px;
+  background-image: url('../linklogo.jpg');
+  text-decoration: none;  
+}
+div#position2 a:link {
+  text-decoration: none;
+  width: 150px;
+  font-weight: 150px;
+  background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div#position2 a:hover {
+  background-image: url('../back2.jpg');
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-weight: bold;
+  color: gray;
+}
+div#position2 a:visited {
+  text-decoration: none;
+  width: 150px;
+  height: 150px;
+}
+div#position2 a:active {
+  text-decoration: none;    
+  width: 150px;
+  height: 150px;
+}
+
+div#position3 {
+  position: absolute;
+  top: 150px;
+  left: 550px;
+  width: 150px;
+  height: 150px;
+  list-style-type: none;
+  text-decoration: none;
+  line-height: 100%;
+  background-repeat: no-repeat;
+  font-family: Arial;
+  font-size: small;
+}
+div#position3 a {
+  display: block;
+  width: 150px;
+  height: 150px;
+  background-image: url('../linklogo.jpg');
+  text-decoration: none;  
+}
+div#position3 a:link {
+  text-decoration: none;
+  width: 150px;
+  font-weight: 150px;
+  background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div#position3 a:hover {
+  background-image: url('../back2.jpg');
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-weight: bold;
+  color: gray;
+}
+div#position3 a:visited {
+  text-decoration: none;
+  width: 150px;
+  height: 150px;
+}
+div#position3 a:active {
+  text-decoration: none;    
+  width: 150px;
+  height: 150px;
+}
+
+div#position4 {
+  position: absolute;
+  top: 150px;
+  left: 700px;
+  width: 150px;
+  height: 150px;
+  list-style-type: none;
+  text-decoration: none;
+  line-height: 100%;
+  background-repeat: no-repeat;
+  font-family: Arial;
+  font-size: small;
+}
+div#position4 a {
+  display: block;
+  width: 150px;
+  height: 150px;
+  background-image: url('../linklogo.jpg');
+  text-decoration: none;  
+}
+div#position4 a:link {
+  text-decoration: none;
+  width: 150px;
+  font-weight: 150px;
+  background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div#position4 a:hover {
+  background-image: url('../back2.jpg');
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-weight: bold;
+  color: gray;
+}
+div#position4 a:visited {
+  text-decoration: none;
+  width: 150px;
+  height: 150px;
+}
+div#position4 a:active {
+  text-decoration: none;    
+  width: 150px;
+  height: 150px;
+}
+
+div#position5 {
+	position: absolute;
+	top: 300px;
+	left: 250px;
+  width: 150px;
+  height: 150px;
+  list-style-type: none;
+  text-decoration: none;
+  line-height: 100%;
+  background-repeat: no-repeat;
+  font-family: Arial;
+  font-size: small;
+}
+div#position5 a {
+  display: block;
+  width: 150px;
+  height: 150px;
+  background-image: url('../linklogo.jpg');
+  text-decoration: none;  
+}
+div#position5 a:link {
+  text-decoration: none;
+  width: 150px;
+  font-weight: 150px;
+  background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div#position5 a:hover {
+  background-image: url('../back2.jpg');
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-weight: bold;
+  color: gray;
+}
+div#position5 a:visited {
+  text-decoration: none;
+  width: 150px;
+  height: 150px;
+}
+div#position5 a:active {
+  text-decoration: none;    
+  width: 150px;
+  height: 150px;
+}
+
+div#position6 {
+  position: absolute;
+  top: 300px;
+  left: 400px;
+  width: 150px;
+  height: 150px;
+  list-style-type: none;
+  text-decoration: none;
+  line-height: 100%;
+  background-repeat: no-repeat;
+  font-family: Arial;
+  font-size: small;
+}
+div#position6 a {
+  display: block;
+  width: 150px;
+  height: 150px;
+  background-image: url('../linklogo.jpg');
+  text-decoration: none;  
+}
+div#position6 a:link {
+  text-decoration: none;
+  width: 150px;
+  font-weight: 150px;
+  background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div#position6 a:hover {
+  background-image: url('../back2.jpg');
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-weight: bold;
+  color: gray;
+}
+div#position6 a:visited {
+  text-decoration: none;
+  width: 150px;
+  height: 150px;
+}
+div#position6 a:active {
+  text-decoration: none;    
+  width: 150px;
+  height: 150px;
+}
+
+div#position7 {
+	position: absolute;
+	top: 300px;
+	left: 550px;
+  width: 150px;
+  height: 150px;
+  list-style-type: none;
+  text-decoration: none;
+  line-height: 100%;
+  background-repeat: no-repeat;
+  font-family: Arial;
+  font-size: small;
+}
+div#position7 a {
+  display: block;
+  width: 150px;
+  height: 150px;
+  background-image: url('../linklogo.jpg');
+  text-decoration: none;  
+}
+div#position7 a:link {
+  text-decoration: none;
+  width: 150px;
+  font-weight: 150px;
+  background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div#position7 a:hover {
+  background-image: url('../back2.jpg');
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-weight: bold;
+  color: gray;
+}
+div#position7 a:visited {
+  text-decoration: none;
+  width: 150px;
+  height: 150px;
+}
+div#position7 a:active {
+  text-decoration: none;    
+  width: 150px;
+  height: 150px;
+}
+
+div#position8 {
+  position: absolute;
+  top: 300px;
+  left: 700px;
+  width: 150px;
+  height: 150px;  
+  list-style-type: none;
+  text-decoration: none;
+  line-height: 100%;
+  background-repeat: no-repeat;
+  font-family: Arial;
+  font-size: small;
+}
+
+div#position8 a {
+  display: block;
+  width: 150px;
+  height: 150px;
+  background-image: url('../linklogo.jpg');
+  text-decoration: none;  
+}
+div#position8 a:link {
+  text-decoration: none;
+  width: 150px;
+  font-weight: 150px;
+  background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div#position8 a:hover {
+  background-image: url('../back2.jpg');
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-weight: bold;
+  color: gray;
+}
+div#position8 a:visited {
+  text-decoration: none;
+  width: 150px;
+  height: 150px;
+}
+div#position8 a:active {
+  text-decoration: none;    
+  width: 150px;
+  height: 150px;
+}
+
+div#position9 {
+  position: absolute;
+  top: 450px;
+  left: 250px;
+  width: 150px;
+  height: 150px;  
+  list-style-type: none;
+  text-decoration: none;
+  line-height: 100%;
+  background-repeat: no-repeat;
+  font-family: Arial;
+  font-size: small;
+}
+
+div#position9 a {
+  display: block;
+  width: 150px;
+  height: 150px;
+  background-image: url('../linklogo.jpg');
+  text-decoration: none;  
+}
+div#position9 a:link {
+  text-decoration: none;
+  width: 150px;
+  font-weight: 150px;
+  background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div#position9 a:hover {
+  background-image: url('../back2.jpg');
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-weight: bold;
+  color: gray;
+}
+div#position9 a:visited {
+  text-decoration: none;
+  width: 150px;
+  height: 150px;
+}
+div#position9 a:active {
+  text-decoration: none;    
+  width: 150px;
+  height: 150px;
+}
+
+div#position10 {
+  position: absolute;
+  top: 450px;
+  left: 400px;
+  width: 150px;
+  height: 150px;  
+  list-style-type: none;
+  text-decoration: none;
+  line-height: 100%;
+  background-repeat: no-repeat;
+  font-family: Arial;
+  font-size: small;
+}
+
+div#position10 a {
+  display: block;
+  width: 150px;
+  height: 150px;
+  background-image: url('../linklogo.jpg');
+  text-decoration: none;  
+}
+div#position10 a:link {
+  text-decoration: none;
+  width: 150px;
+  font-weight: 150px;
+  background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div#position10 a:hover {
+  background-image: url('../back2.jpg');
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-weight: bold;
+  color: gray;
+}
+div#position10 a:visited {
+  text-decoration: none;
+  width: 150px;
+  height: 150px;
+}
+div#position10 a:active {
+  text-decoration: none;    
+  width: 150px;
+  height: 150px;
+}
+
+div#position11 {
+  position: absolute;
+  top: 450px;
+  left: 550px;
+  width: 150px;
+  height: 150px;  
+  list-style-type: none;
+  text-decoration: none;
+  line-height: 100%;
+  background-repeat: no-repeat;
+  font-family: Arial;
+  font-size: small;
+}
+
+div#position11 a {
+  display: block;
+  width: 150px;
+  height: 150px;
+  background-image: url('../linklogo.jpg');
+  text-decoration: none;  
+}
+div#position11 a:link {
+  text-decoration: none;
+  width: 150px;
+  font-weight: 150px;
+  background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div#position11 a:hover {
+  background-image: url('../back2.jpg');
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-weight: bold;
+  color: gray;
+}
+div#position11 a:visited {
+  text-decoration: none;
+  width: 150px;
+  height: 150px;
+}
+div#position11 a:active {
+  text-decoration: none;    
+  width: 150px;
+  height: 150px;
+}
+
+div#position12 {
+  position: absolute;
+  top: 450px;
+  left: 700px;
+  width: 150px;
+  height: 150px;  
+  list-style-type: none;
+  text-decoration: none;
+  line-height: 100%;
+  background-repeat: no-repeat;
+  font-family: Arial;
+  font-size: small;
+}
+
+div#position12 a {
+  display: block;
+  width: 150px;
+  height: 150px;
+  background-image: url('../linklogo.jpg');
+  text-decoration: none;  
+}
+div#position12 a:link {
+  text-decoration: none;
+  width: 150px;
+  font-weight: 150px;
+  background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div#position12 a:hover {
+  background-image: url('../back2.jpg');
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-weight: bold;
+  color: gray;
+}
+div#position12 a:visited {
+  text-decoration: none;
+  width: 150px;
+  height: 150px;
+}
+div#position12 a:active {
+  text-decoration: none;    
+  width: 150px;
+  height: 150px;
+}
+
+div#position13 {
+  position: absolute;
+  top: 600px;
+  left: 250px;
+  width: 150px;
+  height: 150px;  
+  list-style-type: none;
+  text-decoration: none;
+  line-height: 100%;
+  background-repeat: no-repeat;
+  font-family: Arial;
+  font-size: small;
+}
+
+div#position13 a {
+  display: block;
+  width: 150px;
+  height: 150px;
+  background-image: url('../linklogo.jpg');
+  text-decoration: none;  
+}
+div#position13 a:link {
+  text-decoration: none;
+  width: 150px;
+  font-weight: 150px;
+  background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div#position13 a:hover {
+  background-image: url('../back2.jpg');
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-weight: bold;
+  color: gray;
+}
+div#position13 a:visited {
+  text-decoration: none;
+  width: 150px;
+  height: 150px;
+}
+div#position13 a:active {
+  text-decoration: none;    
+  width: 150px;
+  height: 150px;
+}
+
+div#position14 {
+  position: absolute;
+  top: 600px;
+  left: 400px;
+  width: 150px;
+  height: 150px;  
+  list-style-type: none;
+  text-decoration: none;
+  line-height: 100%;
+  background-repeat: no-repeat;
+  font-family: Arial;
+  font-size: small;
+}
+
+div#position14 a {
+  display: block;
+  width: 150px;
+  height: 150px;
+  background-image: url('../linklogo.jpg');
+  text-decoration: none;  
+}
+div#position14 a:link {
+  text-decoration: none;
+  width: 150px;
+  font-weight: 150px;
+  background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div#position14 a:hover {
+  background-image: url('../back2.jpg');
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-weight: bold;
+  color: gray;
+}
+div#position14 a:visited {
+  text-decoration: none;
+  width: 150px;
+  height: 150px;
+}
+div#position14 a:active {
+  text-decoration: none;    
+  width: 150px;
+  height: 150px;
+}
+
+div#position15 {
+  position: absolute;
+  top: 600px;
+  left: 550px;
+  width: 150px;
+  height: 150px;  
+  list-style-type: none;
+  text-decoration: none;
+  line-height: 100%;
+  background-repeat: no-repeat;
+  font-family: Arial;
+  font-size: small;
+}
+
+div#position15 a {
+  display: block;
+  width: 150px;
+  height: 150px;
+  background-image: url('../linklogo.jpg');
+  text-decoration: none;  
+}
+div#position15 a:link {
+  text-decoration: none;
+  width: 150px;
+  font-weight: 150px;
+  background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div#position15 a:hover {
+  background-image: url('../back2.jpg');
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-weight: bold;
+  color: gray;
+}
+div#position15 a:visited {
+  text-decoration: none;
+  width: 150px;
+  height: 150px;
+}
+div#position15 a:active {
+  text-decoration: none;    
+  width: 150px;
+  height: 150px;
+}
+
+
+div#position16 {
+  position: absolute;
+  top: 600px;
+  left: 700px;
+  width: 150px;
+  height: 150px;
+  list-style-type: none;
+  text-decoration: none;
+  line-height: 100%;
+  background-repeat: no-repeat;
+  font-family: Arial;
+  font-size: small;
+}
+div#position16 a {
+  display: block;
+  width: 150px;
+  height: 150px;
+  background-image: url('../linklogo.jpg');
+  text-decoration: none;  
+}
+div#position16 a:link {
+  text-decoration: none;
+  width: 150px;
+  font-weight: 150px;
+  background-image: url('../linklogo.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+div#position16 a:hover {
+  background-image: url('../back2.jpg');
+  width: 150px;
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-weight: bold;
+  color: gray;
+}
+div#position16 a:visited {
+  text-decoration: none;
+  width: 150px;
+  height: 150px;
+}
+div#position16 a:active {
+  text-decoration: none;    
+  width: 150px;
+  height: 150px;
+}
