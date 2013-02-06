@@ -1,58 +1,63 @@
 body {
 	background-color:white;
+	margin:0;
+	padding:0;
+	border:0;			/* This removes the border around the viewport in old versions of IE */
+	width:800px;
 }
 
-div#logo {
-	position: absolute;
-	top: 30px;
-	left: 30px;
-	width: 130px;
-	height: 86px;
-	background-image: url('../ButtonFace1.jpg');
-	background-repeat: no-repeat;
+#header {
+	clear:both;
+	float:left;
+	width:inherit;
+	position: fixed;
 }
-div#header {
-	position: absolute;
-	top: 30px;
-	width: 800px;
-	height: 100px;
+#header {margin:0 2% 0 2%;
+
 	text-align: right;
+	overflow: hidden;
+	background: white url('../ButtonFace1.jpg') no-repeat;
+	z-index: 999;
 }
 div#header h1{
 	font-family: Arial;
 	color: #C0C0C0;
 	text-align: right;
-	font-size: 300%;
+	font-size: 350%;
+	line-height: 40%;
 	font-weight: normal;
 }
 div#header h2 {
-  font-family: Arial;
+	font-family: Arial;
 	color: gray;
 	text-align: right;
-	font-size: small;
+	font-size: 110%;
+	line-height: 50%;
 	font-weight: normal;
 }
-
-div#header p.1 {
-  position: absolute;
-  font-family: Arial;
-	color: gray;	
-	text-align: left;
-	font-size: small;
-	line-height: 120%;
-	top: 53px;
-	left: 300px;
+#content{
+	position: relative;
+	margin-top: 100px;	
+	margin : 0 0 0 180px;
+	width: 635px;
+	float: left;
+	padding : 3px;
+	overflow-x: auto;
+	overflow-y: auto;
 }
 .menu_container{
-	position: absolute;
+	margin:0 0 0 2%;
+	position: relative;
 	float: left;
-	margin-top: 140px;
+	margin-top: 100px;
 #	left: 30px;
+#	text-indent: 0.5cm;
+
+
 }
 .menu {
-	text-indent: 0.5cm;
-	position: absolute;
-	line-height:80px;
+	position:fixed;
+	line-height:77px;
 	font-family: Arial;
 	font-size: small;
 }
@@ -62,14 +67,13 @@ div#header p.1 {
 	list-style-type: none;  
 }
 .menu li {
-	text-indent: 0.5cm;		
-	height: 80px;
-	width: 130px;
+	height: 77px;
+	width: 140px;
 }
 .menu a {
-		text-indent: 0.5cm;		
-
 	text-decoration: none;
+	display:block;
+
 }
 .menu a:link {
 	color: gray;
@@ -81,20 +85,23 @@ div#header p.1 {
 	text-indent: 0;		
 	position: absolute;	
 	font-weight: bold;
-	width: 130px;	
+	width: inherit;	
 	margin: 0;
 	color: gray;
 	background-image: url('../ButtonFace3.jpg');
-#	 background-position: -0.5cm;
 	background-repeat: no-repeat;
-
+#	background-position: -0.5cm;
 } 
-#div#menu a:active {	
-#	font-weight: bold;
-#	color: gray;
-#	background-image: url('../ButtonFace3.jpg');
-#	background-repeat: no-repeat;
-#}
+.menu a:active {	
+	text-indent: 0;		
+	position: absolute;	
+	font-weight: bold;
+	width: inherit;	
+	margin: 0;
+	color: gray;
+	background-image: url('../ButtonFace3.jpg');
+	background-repeat: no-repeat;
+} 
 
 div#image {
 	position: absolute;
@@ -121,7 +128,6 @@ image.left {
 		left: -590px;
 		vertical-align: bottom;
 }
-
 image.left1st {
 		position: absolute;
 		left: -590px;
@@ -137,60 +143,96 @@ image.right {
 }
 
 div#label {
-  position: absolute;
+	position: absolute;
 	top: 0px;
 	left: 0px;
 	width: 150px;
 	height: 150px;
 	text-align: center;
 	border-style: solid;
-  border-color: gray;
+	border-color: gray;
 	border-width: 1px; 
-  font-family: Arial;
-  font-size: small;
+	font-family: Arial;
+	font-size: small;
 	color: gray;
-  background-image: url('../linklogoL.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
+	background-image: url('../linklogoL.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 div#labeltext {
-  position: absolute;
+	position: absolute;
 	top: 20px;
 	left: 250px;
 	width: 200px;
 	height: 100px;
 	text-align: center;
 	border-style: solid;
-  border-color: gray;
+	border-color: gray;
 	border-width: 0px; 
-  font-family: Arial;
-  font-size: small;
+	font-family: Arial;
+	font-size: small;
 	color: gray;
 }
 div#labeltext2 {
-  position: absolute;
+	position: absolute;
 	top: 0px;
 	left: 150px;
 	width: 400px;
 	height: 100px;
 	text-align: center;
 	border-style: solid;
-  border-color: gray;
+	border-color: gray;
 	border-width: 0px; 
   font-family: Arial;
   font-size: small;
 	color: gray;
 }
-div#text {
-	position: absolute;
-	top: 150px;
-	left: 200px;
-	width: 605px;
+p.titletext {
+	position: relative;
+	width: 630px;
+	height: auto;
 	text-align: right;
+	font-family: Arial;
+	color: grey;
+	font-size: medium;
+	font-weight: bold;
+}
+.lefttext {
+	position: relative;
+	width: 175px;
+#	height: inherit;
+	text-align: left;
 	font-family: Arial;
 	color: #C0C0C0;
 	font-size: small;
+}
+.rightimage {
+	position:relative;
+	margin-top: 10px;	
+	font-family: Arial;
+	color: grey;
+	font-size: small;
+	float: left;
+		width:660px;
+
+}
+
+.rightimage img {
+	position:relative;
+	float: right;
+
+}
+
+.rightimage span {
+#	display: table-cell;
+#	width: 75px;
+#	height: 100px;
+#	padding: 0px;
+#	vertical-align: bottom;
+#	font-family: Arial;
+#	color: grey;
+#	font-size: small;
 }
 div#texto {
 	position: absolute;
@@ -263,11 +305,11 @@ div#text2 {
 	font-size: small;
 }
 
-div#text3 {
-  position: absolute;
-	top: 150px;
-	left: 200px;
-	width: 605px;
+.text3 {
+	position: absolute;
+#	top: 150px;
+#	left: 200px;
+#	width: 630px;
 	text-align: right;
 	font-family: Arial;
 	color: #grey;
@@ -426,46 +468,46 @@ div#link a:active {
 
 
 div#help {
-	 position: absolute; 
-	 top: 650px; 
-	 left: 40px; 
+	 position: fixed; 
+	 top: 590px; 
+	 left: 25px; 
 	 width: 30px; 
 	 height: 50px; 
 	 font: 16px arial, sans-serif; 
 	 z-index: 100;
 }
 div#help a {
-   display: block; 
-	 text-align: left; 
-	 font: bold;
-	 font-family: arial;
-   padding: 5px 10px; 
-	 margin: 0 0 1px; 
-	 border-width: 0; 
-   text-decoration: none;
-	 color: white; 
-	 background: gray;
+	display: block;
+	text-align: left; 
+	font: bold;
+	font-family: arial;
+	padding: 5px 10px; 
+	margin: 0 0 1px; 
+	border-width: 0; 
+	text-decoration: none;
+	color: white; 
+	background: gray;
 }
 div#help a:hover {
-   color: #411; 
-	 background: yellow;
+	color: #411; 
+	background: yellow;
 }
 div#help a span {
-   display: none;
+	display: none;
 }
 div#help a:hover span {
-   display: block;
-   position: absolute; 
-	 bottom: 0px; 
-	 left: 0; 
-	 width: 160px;
-   padding: 5px; 
-	 margin: 0px; 
-	 z-index: 100;
-   color: gray; 
-	 background: yellow;
-   font: 10px arial, sans-serif; 
-	 text-align: left;
+	display: block;
+	position: absolute; 
+	bottom: 0px; 
+	left: 0; 
+	width: 140px;
+	padding: 5px; 
+	margin: 0px; 
+	z-index: 100;
+	color: gray; 
+	background: yellow;
+	font: 10px arial, sans-serif; 
+	text-align: left;
 }
 
 div#position2 {
